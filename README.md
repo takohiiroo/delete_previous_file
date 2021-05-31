@@ -12,16 +12,16 @@ F12を押すだけで撮影を開始、停止できるのでとても便利な�
 <br>
 <br>
 Procram flow
-1.Set the path of movie files location
-2.Use *"glep"* and regex to extract all files in the folder 
-3.Use *"max"* and set the key *"getctime"* to find the most recent file as of the creation date.
-4.Delete
+1.Set the path of movie files location<br>
+2.Use *"glep"* and regex to extract all files in the folder <br>
+3.Use *"max"* and set the key *"getctime"* to find the most recent file as of the creation date.<br>
+4.Delete<br>
 5.Use *"plyer"* module to output toast notification and finish
 <br>
 <br>
 プログラムの流れ  
-1.動画が保存されるフォルダのパスを設定
-2.*glep*で正規表現を使いフォルダ内の全ファイルを取り出す
-3.max関数の*key*を*getctime*にして作成日時における最新のファイルを見つけ出す
-4.削除
+1.動画が保存されるフォルダのパスを設定<br>
+2.*glep*で正規表現を使いフォルダ内の全ファイルを取り出す<br>
+3.max関数の*key*を*getctime*にして作成日時における最新のファイルを見つけ出す<br>
+4.削除<br>
 5.*plyer*モジュールを使い、トースト通知を出して終了
