@@ -25,3 +25,13 @@ F12を押すだけで撮影を開始、停止できるのでとても便利な�
 3.max関数の*key*を*getctime*にして作成日時における最新のファイルを見つけ出す<br>
 4.削除<br>
 5.*plyer*モジュールを使い、トースト通知を出して終了
+<br>
+<br>
+# 追記
+ゲームが起動していないときに大事なファイルを消してしまっては困るので、そのゲームを起動しているときのみ*delete.py*が動くようにbatファイルを条件分岐しました<br>
+*tasklist*をパイプで*find*に渡し、対象のゲームの実行ファイルを探し、その処理が成功したか失敗したかがわかる*ERROLEVEL*を利用しています。
+<br>
+<br>
+# P.S.
+I don't want to delete important file when the video game is not running, so I add a sentence of conditional branching on the bat file. It works only when the game is running.<br>
+It passes *tasklist* to *find* to find execute file of the video game, and uses *ERRORLEVEL* to confirm that the prosess succeeded or not.
